@@ -1,0 +1,4 @@
+# iOS_Tagent_arguments
+airtest的iOS_Tagent在调用wda接口时，没有开放arguments的设置，我们希望通过arguments的参数控制自动化测试标签的开关
+
+利用[NSProcessInfo.processInfo.arguments containsObject:@"xxxxxxxx"]去检测设置的开关，判断是否触发自动化测试开关
